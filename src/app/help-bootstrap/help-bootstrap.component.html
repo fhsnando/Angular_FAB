@@ -1,0 +1,81 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.css">
+
+<div class="container">
+    <div class="row">
+        <!--buttons-->
+        <div id="buttons" class="btn-float fixed-action-btn-right ">
+            <div id="collapsebtn" class="collapse">
+                <button type="button"
+                        class="btn  btn-circle btn-lg btn-lateral green btn-center"
+                        data-toggle="modal" data-target="#modalAjuda"
+                ><i class="help icon"></i></button>
+                <br>
+                <button type="button"
+                        class="btn  btn-circle btn-lg btn-lateral gray btn-center"
+                        data-toggle="modal" data-target="#modalContato"
+                ><i class="mail icon"></i></button>
+                <br>
+            </div>
+            <button id="btnprincipal" type="button" class="btn  btn-circle btn-xl btn-lateral blue"
+                    data-toggle="collapse" data-target="#collapsebtn" aria-expanded="false"
+                    aria-controls="collapseExample"
+            ><i class="info icon"></i>
+            </button>
+
+        </div>
+
+        <!--fin buttons -->
+
+    </div>
+
+
+    <!-- Modal Ajuda -->
+    <div class="modal fade" id="modalAjuda" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" style="height: 95%;">
+                <div class="modal-header">
+                    <h5 class="modal-title">Ajuda</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <iframe id="url_help" frameborder="0" width="100%" height="99%"></iframe>
+
+                </div>
+                <div class="modal-footer">
+                    <!--                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>-->
+                    <!--                    <button type="button" class="btn btn-primary">Salvar mudanças</button>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Ajuda-->
+
+    <!-- Modal contato -->
+    <div class="modal fade" id="modalContato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Ajuda</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="indigo darken-4 white-text center"><h4> Contato</h4></div>
+                    <p class="center-align">Entre em contato com a equipe responsável pelo sistema</p>
+                    <p class="center-align"><a href="mailto:{{mail}}">{{mail}}</a></p>
+                </div>
+                <div class="modal-footer">
+                    <!--                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>-->
+                    <!--                    <button type="button" class="btn btn-primary">Salvar mudanças</button>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal contato -->
+
+</div>

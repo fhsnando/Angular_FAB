@@ -1,0 +1,88 @@
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+
+.btn-circle.btn-lg {
+    width: 50px;
+    height: 50px;
+    /*padding: 10px 10px;*/
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 25px;
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 35px;
+}
+
+.btn-float {
+    position: fixed;
+    right: 37px;
+    bottom: 100px;
+}
+
+.btn-lateral {
+    background-color: #008ECF;
+    color: white;
+    margin: 10px;
+}
+
+.fixed-action-btn-left {
+    position: fixed;
+    left: 23px;
+    bottom: 23px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 997;
+}
+
+.fixed-action-btn-right {
+    position: fixed;
+    right: 23px;
+    bottom: 23px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 997;
+}
+
+.modal-dialog {
+    max-width: 80%;
+    height: 100%;
+}
+
+.green {
+    background-color: green;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.blue {
+    background-color: blue;
+}
+
+#button{
+    vertical-align: baseline;
+}
+
+
+.btn-center{
+    margin-left: 20px;
+}
+
+.modal-body{
+    height: inherit;
+    padding-bottom: 50px;
+}

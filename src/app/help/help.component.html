@@ -1,0 +1,52 @@
+<!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.css">
+
+<div class="fixed-action-btn direction-top">
+    <a class="btn-floating btn-large blue">
+<!--        <i class="material-icons">info</i>-->
+        <i class="info icon"></i>
+    </a>
+    <ul>
+<!--        <li><a class="btn-floating green"><i class="material-icons">mail</i></a></li>-->
+        <li><a href="#modalContato" class="btn-floating green modal-trigger"><i class="mail icon"></i></a></li>
+<!--        <li><a class="btn-floating grey"><i class="material-icons">help</i></a></li>-->
+        <li><a href="#modalAjuda" class="btn-floating grey modal-trigger"><i class="help icon"></i></a></li>
+    </ul>
+</div>
+
+<!--<div id="cont"></div>-->
+
+<!-- Modal Ajuda -->
+<div id="modalAjuda" class="modal modal-fixed-footer">
+    <div class="modal-content">
+        <iframe id="url_help" frameborder="0" width="100%" height="99%" ></iframe>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fechar</a>
+    </div>
+</div>
+<!-- Modal Ajuda-->
+
+<!-- Modal contato -->
+<div id="modalContato" class="modal">
+    <div class="modal-content">
+        <div class="indigo darken-4 white-text center"><h4> Contato</h4></div>
+        <p class="center-align">Entre em contato com a equipe responsável pelo sistema</p>
+        <p class="center-align"><a href="mailto:{{mail}}">{{mail}}</a></p>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-indigo btn-flat">Fechar</a>
+    </div>
+</div>
+<!-- Modal contato -->
+
+
+
+<script>
+// Usando a ativação com jquery
+//    $(document).ready(function () {
+//        $('.fixed-action-btn').floatingActionButton();
+//    });
+
+</script>
+

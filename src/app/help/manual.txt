@@ -1,0 +1,19 @@
+Como instalar e configurar o botão help:
+
+0) yarn add jquery e yarn add materialize-css e instalar no angular.cli.json:
+    "styles": [
+        "../node_modules/materialize-css/dist/css/materialize.min.css"
+      ],
+
+1) Copiar a pasta help para a pasta SRC
+
+2) Instalar no app.module.ts,
+import {HelpComponent} from './help/help.component'; e declarations HelpComponent
+
+3) Instalar no app.componenet.html <app-help></app-help>
+
+Configure as váriaveis url<url do helpinfotic> e mail<e-mail de contato>
+
+
+OBS: O comando yarn pode ser substituido por npm install <lib> --save
+
