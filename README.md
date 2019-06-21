@@ -1,6 +1,12 @@
-# Teste
+# Descrição
+  
+  Esse projeto implementa com o uso do boostrap o botão de ajuda flutuante.
+  Também tem uma versão para o materialize, para usar é necessário desativar o bootstrap 
+
+# Angular FAB
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.1.
+
 
 ## Development server
 
